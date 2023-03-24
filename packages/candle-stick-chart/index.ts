@@ -1,3 +1,3 @@
 export function createChart() {
-  console.log('hello');
+  return 1;
 }

@@ -4,11 +4,20 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "lint": "eslint *.ts*"
+    "lint": "eslint *.ts*",
+    "test": "jest"
   },
   "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-typescript": "^7.21.0",
+    "@types/jest": "^29.5.0",
+    "babel-jest": "^29.5.0",
     "eslint": "^7.32.0",
     "eslint-config-custom": "workspace:*",
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.5.0",
+    "ts-node": "^10.9.1",
     "tsconfig": "workspace:*",
     "typescript": "^4.5.2"
   },
