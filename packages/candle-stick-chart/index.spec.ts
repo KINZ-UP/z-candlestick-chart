@@ -1,4 +1,4 @@
-import { createChart } from ".";
+import { createChart } from '.';
 
 describe('createChart', () => {
   it('create canvas and append it to a given element', async () => {
@@ -10,4 +10,4 @@ describe('createChart', () => {
     const canvas = element.querySelector('canvas');
     expect(canvas).toBeInTheDocument();
   });
-})
+});
